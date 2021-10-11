@@ -484,7 +484,7 @@ gst_srt_object_install_properties_helper (GObjectClass * gobject_class)
           GST_SRT_CONNECTION_MODE_CALLER,
           G_PARAM_READWRITE | GST_PARAM_MUTABLE_READY |
           G_PARAM_STATIC_STRINGS));
-  gst_type_mark_as_plugin_api (GST_TYPE_SRT_CONNECTION_MODE, 0);
+  // gst_type_mark_as_plugin_api (GST_TYPE_SRT_CONNECTION_MODE, 0);
 
   /**
    * GstSRTSrc:localaddress:
@@ -534,7 +534,7 @@ gst_srt_object_install_properties_helper (GObjectClass * gobject_class)
           GST_SRT_DEFAULT_PBKEYLEN,
           G_PARAM_READWRITE | GST_PARAM_MUTABLE_READY |
           G_PARAM_STATIC_STRINGS));
-  gst_type_mark_as_plugin_api (GST_TYPE_SRT_KEY_LENGTH, 0);
+  // gst_type_mark_as_plugin_api (GST_TYPE_SRT_KEY_LENGTH, 0);
 
   /**
    * GstSRTSrc:poll-timeout:
