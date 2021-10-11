@@ -1,7 +1,5 @@
 srt_sources = [
   'gstsrt.c',
-  'gstsrtelement.c',
-  'gstsrtplugin.c',
   'gstsrtobject.c',
   'gstsrtsink.c',
   'gstsrtsrc.c'
